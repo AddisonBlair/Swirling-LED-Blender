@@ -1,0 +1,172 @@
+#Swirling LED Blender by Addison Blair in the Dev catalyst Hardware class
+from gpiozero import LEDBoard
+from gpiozero import Button
+from time import sleep
+
+leds = LEDBoard(26, 16, 13, 12, 6)
+keypress = ''
+
+while True:
+    keypress = ''
+    while keypress != 'z':
+        keypress = input("Please press 'z': ")
+    leds.value = (0, 0, 0, 0, 0)
+    sleep(0.25)
+    keypress = ''
+    while keypress != 'z':
+        keypress = input("Please press 'z': ")        
+    leds.value = (0, 0, 0, 0, 1)
+    sleep(0.25)
+    keypress = ''
+    while keypress != 'z':
+        keypress = input("Please press 'z': ")
+    leds.value = (0, 0, 0, 1, 0)
+    sleep(0.25)
+    keypress = ''
+    while keypress != 'z':
+        keypress = input("Please press 'z': ")
+    leds.value = (0, 0, 0, 1, 1)
+    sleep(0.25)
+    keypress = ''
+    while keypress != 'z':
+        keypress = input("Please press 'z': ")
+    leds.value = (0, 0, 1, 0, 0)
+    sleep(0.25)
+    keypress = ''
+    while keypress != 'z':
+        keypress = input("Please press 'z': ")
+    leds.value = (0, 0, 1, 0, 1)
+    sleep(0.25)
+    keypress = ''
+    while keypress != 'z':
+        keypress = input("Please press 'z': ")
+    leds.value = (0, 0, 1, 1, 0)
+    sleep(0.25)
+    keypress = ''
+    while keypress != 'z':
+        keypress = input("Please press 'z': ")
+    leds.value = (0, 0, 1, 1, 1)
+    sleep(0.25)
+    keypress = ''
+    while keypress != 'z':
+        keypress = input("Please press 'z': ")
+    leds.value = (0, 1, 0, 0, 0)
+    sleep(0.25)
+    keypress = ''
+    while keypress != 'z':
+        keypress = input("Please press 'z': ")
+    leds.value = (0, 1, 0, 0, 1)
+    sleep(0.25)
+    keypress = ''
+    while keypress != 'z':
+        keypress = input("Please press 'z': ")
+    leds.value = (0, 1, 0, 1, 0)
+    sleep(0.25)
+    keypress = ''
+    while keypress != 'z':
+        keypress = input("Please press 'z': ")
+    leds.value = (0, 1, 0, 1, 1)
+    sleep(0.25)
+    keypress = ''
+    while keypress != 'z':
+        keypress = input("Please press 'z': ")
+    leds.value = (0, 1, 1, 0, 0)
+    sleep(0.25)
+    keypress = ''
+    while keypress != 'z':
+        keypress = input("Please press 'z': ")
+    leds.value = (0, 1, 1, 0, 1)
+    sleep(0.25)
+    keypress = ''
+    while keypress != 'z':
+        keypress = input("Please press 'z': ")
+    leds.value = (0, 1, 1, 1, 0)
+    sleep(0.25)
+    keypress = ''
+    while keypress != 'z':
+        keypress = input("Please press 'z': ")
+    leds.value = (0, 1, 1, 1, 1)
+    sleep(0.25)
+    keypress = ''
+    while keypress != 'z':
+        keypress = input("Please press 'z': ")
+    leds.value = (1, 0, 0, 0, 0)
+    sleep(0.25)
+    keypress = ''
+    while keypress != 'z':
+        keypress = input("Please press 'z': ")
+    leds.value = (1, 0, 0, 0, 1)
+    sleep(0.25)
+    keypress = ''
+    while keypress != 'z':
+        keypress = input("Please press 'z': ")
+    leds.value = (1, 0, 0, 1, 0)
+    sleep(0.25)
+    keypress = ''
+    while keypress != 'z':
+        keypress = input("Please press 'z': ")
+    leds.value = (1, 0, 0, 1, 1)
+    sleep(0.25)
+    keypress = ''
+    while keypress != 'z':
+        keypress = input("Please press 'z': ")
+    leds.value = (1, 0, 1, 0, 0)
+    sleep(0.25)
+    keypress = ''
+    while keypress != 'z':
+        keypress = input("Please press 'z': ")
+    leds.value = (1, 0, 1, 0, 1)
+    sleep(0.25)
+    keypress = ''
+    while keypress != 'z':
+        keypress = input("Please press 'z': ")
+    leds.value = (1, 0, 1, 1, 0)
+    sleep(0.25)
+    keypress = ''
+    while keypress != 'z':
+        keypress = input("Please press 'z': ")
+    leds.value = (1, 0, 1, 1, 1)
+    sleep(0.25)
+    keypress = ''
+    while keypress != 'z':
+        keypress = input("Please press 'z': ")
+    leds.value = (1, 1, 0, 0, 0)
+    sleep(0.25)
+    keypress = ''
+    while keypress != 'z':
+        keypress = input("Please press 'z': ")
+    leds.value = (1, 1, 0, 0, 1)
+    sleep(0.25)
+    keypress = ''
+    while keypress != 'z':
+        keypress = input("Please press 'z': ")
+    leds.value = (1, 1, 0, 1, 0)
+    sleep(0.25)
+    keypress = ''
+    while keypress != 'z':
+        keypress = input("Please press 'z': ")
+    leds.value = (1, 1, 0, 1, 1)
+    sleep(0.25)
+    keypress = ''
+    while keypress != 'z':
+        keypress = input("Please press 'z': ")
+    leds.value = (1, 1, 1, 0, 0)
+    sleep(0.25)
+    keypress = ''
+    while keypress != 'z':
+        keypress = input("Please press 'z': ")
+    leds.value = (1, 1, 1, 0, 1)
+    sleep(0.25)
+    keypress = ''
+    while keypress != 'z':
+        keypress = input("Please press 'z': ")
+    leds.value = (1, 1, 1, 1, 0)
+    sleep(0.25)
+    keypress = ''
+    while keypress != 'z':
+        keypress = input("Please press 'z': ")
+    leds.value = (1, 1, 1, 1, 1)
+    sleep(0.25)
+    keypress = ''
+    while keypress != 'z':
+        keypress = input("Please press 'z': ")
